@@ -1,0 +1,2 @@
+material,yield_strength_mpa,ultimate_strength_mpa,elastic_modulus_gpa,fatigue_strength_mpa,fatigue_exponent
+AISI_4140,655,930,205,465,-0.095

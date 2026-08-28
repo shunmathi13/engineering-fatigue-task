@@ -1,0 +1,7 @@
+{
+  "component": "notched_specimen",
+  "width_mm": 50.0,
+  "thickness_mm": 10.0,
+  "notch_radius_mm": 2.0,
+  "stress_concentration_factor": 2.5
+}

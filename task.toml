@@ -1,0 +1,57 @@
+[task]
+name = "notched-component-fatigue-analysis"
+version = "1.0"
+
+[metadata]
+domain = "Mechanical Engineering"
+
+subdomains = [
+    "Fatigue Analysis",
+    "Solid Mechanics",
+    "Computational Mechanics"
+]
+
+workflow_type = [
+    "Engineering simulation workflow",
+    "Computational modelling workflow"
+]
+
+task_types = [
+    "Fatigue life estimation",
+    "Stress concentration analysis",
+    "Cyclic loading analysis",
+    "Engineering validation"
+]
+
+skills = [
+    "Mechanics of materials",
+    "Fatigue analysis",
+    "Numerical computation",
+    "Data analysis",
+    "Engineering writing"
+]
+
+tool_types = [
+    "Python",
+    "NumPy",
+    "SciPy",
+    "pandas",
+    "Command-line tools"
+]
+
+estimated_step_count = 28
+expected_expert_time = "45-75 minutes"
+
+difficulty_explanation = """
+The agent must combine material properties, cyclic loading data,
+stress concentration effects, and fatigue behaviour to estimate
+the service life of a notched mechanical component. The workflow
+requires several dependent calculations and validation checks.
+Intermediate engineering decisions can affect the final fatigue-life
+prediction, requiring the agent to inspect the supplied data and
+validate the resulting calculation rather than relying on a single
+formula.
+"""
+
+[agent]
+timeout_sec = 900

@@ -1,0 +1,5 @@
+cycle_block,stress_amplitude_mpa,mean_stress_mpa,cycles
+1,300,50,10000
+2,350,50,10000
+3,400,50,5000
+4,450,50,2000
