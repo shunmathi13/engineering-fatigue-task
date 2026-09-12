@@ -6,6 +6,6 @@ Estimate the fatigue life of the component under the specified loading condition
 
 Check the input data for physical or numerical inconsistencies before relying on the results. Where intermediate quantities are required for the final assessment, retain them so that the calculation can be independently reviewed.
 
-Write the final engineering results to `/root/results/fatigue_analysis.csv` and provide a concise interpretation in `/root/results/engineering_report.md`. The CSV should contain the key calculated quantities and the predicted fatigue life. The report should explain the resulting fatigue assessment, identify the critical condition, and state any important assumptions or limitations supported by the supplied data.
+Write the final engineering results to `/root/results/fatigue_analysis.csv` and provide a concise interpretation in the required markdown output file in `/root/results/`. The CSV should contain the key calculated quantities and the predicted fatigue life. The markdown output should explain the resulting fatigue assessment, identify the critical condition, and state any important assumptions or limitations supported by the supplied data.
 
 The results should be reproducible from the supplied input files.
