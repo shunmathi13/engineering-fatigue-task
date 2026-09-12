@@ -4,8 +4,8 @@ The material, loading, and component data describe a mechanically loaded compone
 
 Estimate the fatigue life of the component under the specified loading conditions. Your analysis should distinguish between the applied nominal loading and the local stress state at the notch and should use the supplied material fatigue information consistently.
 
-Check the input data for physical or numerical inconsistencies before relying on the results. Where intermediate quantities are required for the final assessment, retain them so that the calculation can be independently reviewed.
+Check the input data for physical and numerical inconsistencies before relying on the results. Where intermediate quantities are required for the final assessment, retain them so that the calculation can be independently reviewed.
 
-Write the final engineering results to `/root/results/fatigue_analysis.csv` and provide a concise interpretation in the required markdown output file in `/root/results/`. The CSV should contain the key calculated quantities and the predicted fatigue life. The markdown output should explain the resulting fatigue assessment, identify the critical condition, and state any important assumptions or limitations supported by the supplied data.
+Write the final engineering results to `/root/results/fatigue_analysis.csv` and provide a concise interpretation in the required markdown output file in `/root/results/`. The CSV should contain the key calculated quantities and the predicted fatigue life. The markdown output should explain the resulting fatigue assessment, identify the critical condition, and state any important assumptions and limitations supported by the supplied data.
 
 The results should be reproducible from the supplied input files.
